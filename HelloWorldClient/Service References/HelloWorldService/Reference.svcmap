@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="19796baa-f2af-4d64-b585-0515cd788b4a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:54125/HelloWorldService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="HelloWorldService.wsdl" MetadataType="Wsdl" ID="e9f48bb2-ca2a-49f6-b573-00e3e575a9ee" SourceId="1" SourceUrl="http://localhost:54125/HelloWorldService.svc?wsdl" />
+    <MetadataFile FileName="HelloWorldService.disco" MetadataType="Disco" ID="71974b52-6a60-4828-a7c5-da0350164bc6" SourceId="1" SourceUrl="http://localhost:54125/HelloWorldService.svc?disco" />
+    <MetadataFile FileName="HelloWorldService.xsd" MetadataType="Schema" ID="db7b0949-2c86-4ac6-8f73-3b658d9cbd42" SourceId="1" SourceUrl="http://localhost:54125/HelloWorldService.svc?xsd=xsd1" />
+    <MetadataFile FileName="HelloWorldService1.xsd" MetadataType="Schema" ID="8829ddbc-a05e-4708-85d2-b3e6fea09fb2" SourceId="1" SourceUrl="http://localhost:54125/HelloWorldService.svc?xsd=xsd0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
